@@ -9,9 +9,9 @@ What things you need to install before starting
 JDK 1.8
 Eclipse & Embedded Maven
 PostMan
-Git Client - <https://git-scm.com/>
-Rabbit MQ - <https://www.rabbitmq.com/install-windows.html>
-Zipkin - <https://zipkin.io/pages/quickstart>
+Git Client - (https://git-scm.com/)
+Rabbit MQ - (https://www.rabbitmq.com/install-windows.html)
+Zipkin - (https://zipkin.io/pages/quickstart)
 ```
 ## Getting Started
 
@@ -43,13 +43,12 @@ git clone https://github.com/sumanth25/microservices-spring-cloud.git
 
 |     Application       |     Port          |
 | ------------- | ------------- |
-| Limits Service | 8080, 8081, ... |
-| Spring Cloud Config Server | 8888 |
-|  |  |
-| Currency Exchange Service | 8000, 8001, 8002, ..  |
-| Currency Conversion Service | 8100, 8101, 8102, ... |
 | Netflix Eureka Naming Server | 8761 |
 | Netflix Zuul API Gateway Server | 8765 |
+| Spring Cloud Config Server | 8888 |
+| Limits Service | 8282, 8283, ... |
+| Currency Exchange Service | 8000, 8001, 8002, ..  |
+| Currency Conversion Service | 8100, 8200, 8300, ... |
 | Zipkin Distributed Tracing Server | 9411 |
 
 ## Deployment
