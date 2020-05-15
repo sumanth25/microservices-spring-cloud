@@ -25,6 +25,16 @@ To use git to get repository contents run the following git command:
 #!bash
 git clone https://github.com/sumanth25/microservices-spring-cloud.git
 ```
+
+## How to use RabbitMQ and Zipkin together ##
+
+Install RabbitMQ as a service in windows/mac and download Zipkin jar
+Use the below commands:
+
+```
+set RABBIT_URI=amqp://localhost
+java -jar zipkin-server-2.7.0-exec.jar
+```
 ## Main Features
 
 * Netflix Eureka - Naming Server
