@@ -16,6 +16,19 @@ What things you need to install before starting
 
 These instructions will help you to get your project up and running on your local machine for development and testing purposes. The application is build on top of Spring Boot (https://spring.io/projects/spring-boot) providing a runtime container. 
 
+## Main Features
+
+* Netflix Eureka - Naming Server
+* Netflix Zuul- API Gateway
+* Spring Cloud Config - Config Server
+* Hystrix - Fault Tolerance
+* Feign - Rest Client
+* Ribbon - Client Side Load Balancing
+* Spring Cloud Sleuth - Distributed Tracing - Unique Id for request
+* Zipkin - Distributed Tracing Server
+* RabbitMQ - Message Queue
+* Spring Cloud Bus - Refresh config update on all instances
+
 ## How to use git ##
 
 All sources are available as public at https://github.com/sumanth25/microservices-spring-cloud
@@ -35,18 +48,6 @@ Use the below commands:
 set RABBIT_URI=amqp://localhost
 java -jar zipkin-server-2.7.0-exec.jar
 ```
-## Main Features
-
-* Netflix Eureka - Naming Server
-* Netflix Zuul- API Gateway
-* Spring Cloud Config - Config Server
-* Hystrix - Fault Tolerance
-* Feign - Rest Client
-* Ribbon - Client Side Load Balancing
-* Spring Cloud Sleuth - Distributed Tracing - Unique Id for request
-* Zipkin - Distributed Tracing Server
-* RabbitMQ - Message Queue
-* Spring Cloud Bus - Refresh config update on all instances
 
 ## Ports
 
