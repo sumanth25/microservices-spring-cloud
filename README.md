@@ -6,7 +6,7 @@ A small web application to demonstrate the concept of Spring Microservices using
 What things you need to install before starting
 
 * JDK 1.8
-* Eclipse & Embedded Maven
+* Eclipse/IntelliJ Community Edition (https://www.jetbrains.com/idea/download/#section=windows) & Embedded Maven
 * PostMan - (https://www.postman.com/downloads/)
 * Git Client - (https://git-scm.com/)
 * Rabbit MQ - (https://www.rabbitmq.com/install-windows.html)
