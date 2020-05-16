@@ -47,6 +47,11 @@ Use the below commands:
 ```
 set RABBIT_URI=amqp://localhost
 java -jar zipkin-server-2.7.0-exec.jar
+
+Additionally, if you like to see RabbitMQ admin:
+* Go to Program Files -> RabbitMQ Server -> rabbitmq_server-3.8.3 -> sbin
+* Run cmd: rabbitmq-plugins enable rabbitmq_management
+* In browser, go to (http://localhost:15672/) and login as default user:guest;pwd:guest
 ```
 
 ## Ports and URL's
