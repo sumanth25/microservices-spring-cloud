@@ -66,7 +66,7 @@ Additionally, if you like to see RabbitMQ admin:
 | Currency Conversion Service | 8100, 8200, 8300, ... | (http://localhost:8100/currency-converter/from/USD/to/INR/quantity/1000) |
 | Zipkin Distributed Tracing Server | 9411 | (http://localhost:9411/zipkin/) |
 
-*Default port 8080 as no port is specified in dev profile as users are expected to run multiple instances with ports (8282,8283) in local Run Configurations of Eclipse/IntelliJ
+*Limits Service runs on default port:8080 as server.port is specified in any profiles. This is intentionally avoided as users are expected to run multiple instances with ports (8282,8283) in local Run Configurations of Eclipse/IntelliJ
 
 ## Deployment
 
