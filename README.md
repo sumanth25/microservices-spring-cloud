@@ -61,10 +61,12 @@ Additionally, if you like to see RabbitMQ admin:
 | Netflix Eureka Naming Server | 8761 | (http://localhost:8761/eureka/) |
 | Netflix Zuul API Gateway Server | 8765 | (http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/1000) | 
 | Spring Cloud Config Server | 8888 | (http://localhost:8888/limits-service/default) |
-| Limits Service | 8282, 8283, ... | |
+| Limits Service | 8282, 8283, ... | (http://localhost:8080/limits)* |
 | Currency Exchange Service | 8000, 8001, 8002, ..  | (http://localhost:8000/currency-exchange/from/USD/to/INR/) |
 | Currency Conversion Service | 8100, 8200, 8300, ... | (http://localhost:8100/currency-converter/from/USD/to/INR/quantity/1000) |
 | Zipkin Distributed Tracing Server | 9411 | (http://localhost:9411/zipkin/) |
+
+*Default port 8080 as no port is specified in dev profile as users are expected to run multiple instances with ports (8282,8283) in local Run Configurations of Eclipse/IntelliJ
 
 ## Deployment
 
