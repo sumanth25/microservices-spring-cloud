@@ -1,5 +1,18 @@
 # Microservices Spring Cloud
-A small web application to demonstrate the concept of Spring Microservices using Spring Cloud and Netflix Components
+This repo is intended to demonstrate how one can learn Spring Cloud and Netflix Components in a small web application having multiple microservices in a distributed system. For easy demonstration, a minimal currency conversion application is implemented using Spring Cloud and Netflix Components.
+
+## Main Features
+
+* Netflix Eureka - Naming Server
+* Netflix Zuul- API Gateway
+* Spring Cloud Config - Config Server
+* Hystrix - Fault Tolerance
+* Feign - Rest Client
+* Ribbon - Client Side Load Balancing
+* Spring Cloud Sleuth - Distributed Tracing - Unique Id for request
+* Zipkin - Distributed Tracing Server
+* RabbitMQ - Message Queue
+* Spring Cloud Bus - Refresh config update on all instances
 
 ### Prerequisites
 
@@ -15,19 +28,6 @@ What things you need to install before starting
 ## Getting Started
 
 These instructions will help you to get your project up and running on your local machine for development and testing purposes. The application is build on top of Spring Boot (https://spring.io/projects/spring-boot) providing a runtime container. 
-
-## Main Features
-
-* Netflix Eureka - Naming Server
-* Netflix Zuul- API Gateway
-* Spring Cloud Config - Config Server
-* Hystrix - Fault Tolerance
-* Feign - Rest Client
-* Ribbon - Client Side Load Balancing
-* Spring Cloud Sleuth - Distributed Tracing - Unique Id for request
-* Zipkin - Distributed Tracing Server
-* RabbitMQ - Message Queue
-* Spring Cloud Bus - Refresh config update on all instances
 
 ## How to use git ##
 
