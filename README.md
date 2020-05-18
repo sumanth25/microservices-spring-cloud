@@ -1,5 +1,5 @@
 # Microservices Spring Cloud
-This repo is intended to demonstrate how one can learn Spring Cloud and Netflix Components in a small web application having multiple microservices in a distributed system. For easy demonstration, a minimal currency conversion application is implemented using Spring Cloud and Netflix Components.
+This repo is intended to demonstrate how one can learn Spring Cloud and Netflix Components. For easy demonstration, a minimal currency conversion application having multiple microservices in a distributed system is implemented.
 
 ## Main Features
 
